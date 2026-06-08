@@ -135,7 +135,7 @@ hr{
     justify-content: space-around;
     align-items: center;
     padding: 100px 0px;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/heroimage);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../images/heroimage);
     background-size: cover;
 }
 
@@ -586,7 +586,7 @@ input[type="range"]::-webkit-slider-thumb{
     align-content: center;
     background-color: #fbfbfb;
     padding: 120px 40px;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/heroimage) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/service-hero-image.jpeg) no-repeat;
     background-size: cover; 
 }
 .sectionmain{
