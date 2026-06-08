@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesfolder/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainpage">
+      <div class="navbar">
+        <div>
+          <a href="index.html"><img src="/images/logo.svg"  alt="sparkle clean pro icon"  class="sparklelogo"  /></a>
+        </div>
+        <div>
+          <ul class="navbarlist">
+            <li class="navbarlistel"><a href="about.html">About</a></li>
+            <li class="navbarlistel"><a href="service.html">Services</a></li>
+            <li class="navbarlistel"><a href="pricing.html">Pricing</a></li>
+            <li class="navbarlistel"><a href="blog.html">Blog</a></li>
+            <li class="navbarlistel"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navright">
+          <div class="moonbox">
+            <div><i class="fa-regular fa-moon moon"></i></div>
+          </div>
+          <div class="getfreequote"><a href="">Get Free Quote</a></div>
+          <div class="hamburger"> 
+          <header>
+            <label for="menu-toggle" class="menu-icon">☰</label>
+          </header>
+          </div>
+        </div>
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+
+      <div class="navbarhidden">
+          <div class="hiddenlinks">
+              <div><a href="about.html">About</a></div>
+              <div><a href="service.html">Services</a></div>
+              <div><a href="pricing.html">Pricing</a></div>
+              <div><a href="blog.html">Blog</a></div>
+              <div><a href="contact.html">Contact</a></div>
+          </div>
+          <hr>
+          <div class="getfreequote hidden-button">Get Free Quote</div>
+      </div>
+
+      <div class="hero" id="hero-section">
+        <div class="lefthero">
+          <div class="instantquote-button">
+            <div class="dot"></div>
+            <div class="instantquote">Instant Quote</div>
+          </div>
+          <div class="heromain">
+            <span class="heromaintext">Professional Cleaning,</span>
+            <div class="changing-text">
+              <span>Guaranted Spotless</span>
+              <span>Made Simple</span>
+              <span>Eco-Friendly</span>
+              <span>You Can Trust</span>
+            </div>
+          </div>
+          <div class="herotext">
+            Trusted by thousands of homeowners and businesses in Austin. Our
+            insured, background-checked cleaning professionals use eco-friendly
+            products to deliver a spotless space every single time.
+          </div>
+          <div class="quotecall">
+            <div class="getfreequote2">
+             <a href="#hero-section"> Get Free Quote <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="call">
+                <div class="herocallicon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></div>
+               Call (555) 867-5309
+            </div>
+          </div>
+          <div class="ratings">
+            <div>
+              <div class="review-no">5000+</div>
+              <div class="reviews">Homes Cleaned</div>
+            </div>
+            <div>
+              <div class="review-no">4.9 <i class="fa-solid fa-star star"></i></div>
+              <div class="reviews">Star Rating</div>
+            </div>
+            <div>
+              <div class="review-no">100%</div>
+              <div class="reviews">Satisfaction</div>
+            </div>
+            <div>
+              <div class="review-no">200+</div>
+              <div class="reviews">5-Star Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="righthero">
+          <div class="instant">Instant Quote</div>
+          <div class="getyourestim">Get your estimated price in seconds</div>
+          <div class="property">
+            <div class="write">Property Type</div>
+            <div>
+              <select name="House" id="" class="propertytype">
+                <option class="write" value="">House</option>
+                <option class="write" value="">Apartment</option>
+                <option class="write" value="">Condo</option>
+                <option class="write" value="">Office</option>
+              </select>
+            </div>
+          </div>
+          <div class="homesize">
+            <div class="write">Home Size</div>
+            <div class="sqft">1500 sq ft</div>
+          </div>
+          <div>
+            <input type="range" min="0" max="100" value="30" class="range" />
+          </div>
+          <div class="rangevalues">
+            <div>500 sq ft</div>
+            <div>5000 sq ft</div>
+          </div>
+          <div class="bedrooms">Bedrooms</div>
+          <div class="noofbr">
+            <div class="signs"><i class="fa-solid fa-minus"></i></div>
+            <div class="count">3</div>
+            <div class="signs"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div>
+            <div class="write">Frequency</div>
+            <div class="times">
+              <div class="one-time">One-Time</div>
+              <div class="time">Weekly</div>
+              <div class="time">Bi-Weekly</div>
+              <div class="time">Monthly</div>
+            </div>
+          </div>
+          <div class="price">
+            <div class="estprice">Estimated Price</div>
+            <div class="money">$386</div>
+          </div>
+          <div class="booknow">Book Now</div>
+        </div>
+      </div>
+      
+
+      <div class="waveclass">
+        <svg viewBox="0 0 1440 80"  fill="none"  xmlns="http://www.w3.org/2000/svg"  class="wave" preserveAspectRatio="none"  >
+          <path  d="M0 40C240 80 480 0 720 40C960 80 1200 0 1440 40V80H0V40Z"  fill="#fbfbfb"  ></path>
+        </svg>
+      </div>
+
+      <div class="features">
+        <div class="featureitems">
+          <div>
+            <svg  class="circleicons"  class="h-7 w-7"  fill="none"  viewBox="0 0 24 24"  stroke="currentColor"  >
+              <path  stroke-linecap="round"  stroke-linejoin="round"  stroke-width="2"  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"  />            </svg>
+          </div>
+          <div class="featurenames">Fully Insured</div>
+          <div class="featuredetails">
+            Up to $2M liability coverage for complete peace of mind.
+          </div>
+        </div>
+        <div class="featureitems">
+          <div>
+            <svg  class="circleicons"  class="h-7 w-7"  fill="none"  viewBox="0 0 24 24"  stroke="currentColor"  >
+              <path    stroke-linecap="round"    stroke-linejoin="round"    stroke-width="2"    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"  />
+            </svg>
+          </div>
+          <div class="featurenames">Background Checked</div>
+          <div class="featuredetails">
+            Every team member passes thorough background screening.
+          </div>
+        </div>
+        <div class="featureitems">
+          <div>
+            <svg  class="circleicons"  class="h-7 w-7"  fill="none"  viewBox="0 0 24 24"  stroke="currentColor"  >
+              <path    stroke-linecap="round"    stroke-linejoin="round"    stroke-width="2"    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"  />
+            </svg>
+          </div>
+          <div class="featurenames">Eco-Friendly</div>
+          <div class="featuredetails">
+            Green-certified products safe for kids, pets, and the planet.
+          </div>
+        </div>
+        <div class="featureitems">
+          <div>
+            <svg  class="circleicons"  class="h-7 w-7"  fill="none"  viewBox="0 0 24 24"  stroke="currentColor"  >
+              <path    stroke-linecap="round"    stroke-linejoin="round"    stroke-width="2"    d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"  />
+            </svg>
+          </div>
+          <div class="featurenames">Satisfaction Guaranteed</div>
+          <div class="featuredetails">
+            Not happy? We'll re-clean for free within 24 hours.
+          </div>
+        </div>
+      </div>
+
+      <div class="numbers">
+        <div class="number">
+          <div class="money">5000+</div>
+          <div class="write">Homes Cleaned</div>
+        </div>
+        <div class="number">
+          <div class="money">200+</div>
+          <div class="write">Five-Star Reviews</div>
+        </div>
+        <div class="number">
+          <div class="money">8+</div>
+          <div class="write">Years Experience</div>
+        </div>
+        <div class="number">
+          <div class="money">100%</div>
+          <div class="write">Satisfaction Rate</div>
+        </div>
+      </div>
+      <div class="servicessection">
+        <div class="sectionmain">
+          <div class="sectionname">Our Services</div>
+          <div class="sectionheading white">Cleaning Services for Every Need</div>
+          <div class="sectiontext white">
+            From weekly home cleanings to large-scale commercial projects, we
+            have the team and expertise to handle it all.
+          </div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Regular Cleaning</div>
+            <div class="servicetext">
+              Weekly, bi-weekly, or monthly visits to keep your home
+              consistently fresh, tidy, and welcoming for your family.
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Deep Cleaning</div>
+            <div class="servicetext">
+              An intensive top-to-bottom clean that reaches every corner,
+              baseboard, and hidden surface for a like-new feeling.
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Move-In/Out Cleaning</div>
+            <div class="servicetext">
+              Comprehensive cleaning before you settle in or after you move out,
+              helping you get your full deposit back.
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Commercial Cleaning</div>
+            <div class="servicetext">
+              Flexible office and retail cleaning schedules tailored to your
+              business hours and specific requirements.
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Post-Construction</div>
+            <div class="servicetext">
+              Dust, debris, and residue removal after renovations or new
+              construction, making your space move-in ready.
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <svg
+                class="servicesicons"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                />
+              </svg>
+            </div>
+            <div class="servicenames">Green Cleaning</div>
+            <div class="servicetext">
+              100% eco-friendly products that are safe for children, pets, and
+              the environment without sacrificing cleaning power.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="packagesection">
+        <div class="sectionmain">
+          <div class="sectionname">Packages</div>
+          <div class="sectionheading">Choose Your Clean</div>
+          <div class="sectiontext">
+            Transparent pricing with no hidden fees. Pick the package that fits
+            your needs and budget.
+          </div>
+        </div>
+        <div><img  class="truck" src="/images/truck" alt="truck-image"></div>
+        <div class="packages">
+          <div class="package">
+            <div>
+              <div class="packageheading">Basic Clean</div>
+              <div class="packagesubheading">
+                Essential cleaning for maintained homes
+              </div>
+            </div>
+            <div>
+              <div class="packageprice">$99</div>
+              <div class="startingat">Starting at</div>
+            </div>
+            <div>
+              <ul class="packagelist">
+                <li><span class="tick">✓</span> Dusting all surfaces</li>
+                <li><span class="tick">✓</span> Vacuuming & mopping</li>
+                <li><span class="tick">✓</span> Kitchen counters & sink</li>
+                <li><span class="tick">✓</span> Bathroom sanitization</li>
+                <li><span class="tick">✓</span> Trash removal</li>
+              </ul>
+            </div>
+            <div class="packagebooking">Book Basic</div>
+          </div>
+          <div class="package" id="packagepopular">
+            <div class="mostpopular">Most Popular</div>
+            <div class="positioning">
+              <div>
+                <div class="packageheading">Deep Clean</div>
+                <div class="packagesubheading">
+                  Thorough top-to-bottom clean
+                </div>
+              </div>
+              <div>
+                <div class="packageprice">$199</div>
+                <div class="startingat">Starting at</div>
+              </div>
+              <div>
+                <ul class="packagelist">
+                  <li><span class="tick">✓</span> Everything in Basic</li>
+                  <li><span class="tick">✓</span> Inside appliances</li>
+                  <li><span class="tick">✓</span> Baseboards & door frames</li>
+                  <li><span class="tick">✓</span> Window sills & blinds</li>
+                  <li><span class="tick">✓</span> Cabinet exteriors</li>
+                  <li><span class="tick">✓</span> Light fixtures</li>
+                </ul>
+              </div>
+              <div class="packagebooking" id="popularbooking">
+                Book Deep Clean
+              </div>
+            </div>
+          </div>
+          <div class="package">
+            <div>
+              <div class="packageheading">Move-In/Out</div>
+              <div class="packagesubheading">Complete proprety preparation</div>
+            </div>
+            <div>
+              <div class="packageprice">$299</div>
+              <div class="startingat">Starting at</div>
+            </div>
+            <div>
+              <ul class="packagelist">
+                <li><span class="tick">✓</span> Everything in Deep Clean</li>
+                <li><span class="tick">✓</span> Inside cabinets & drawers</li>
+                <li>
+                  <span class="tick">✓</span> Oven & refrigerator deep clean
+                </li>
+                <li><span class="tick">✓</span> Closet cleaning</li>
+                <li><span class="tick">✓</span> Garage sweep</li>
+                <li><span class="tick">✓</span> Wall spot cleaning</li>
+              </ul>
+            </div>
+            <div class="packagebooking">Book Move Clean</div>
+          </div>
+          <div class="package">
+            <div>
+              <div class="packageheading">Commercial</div>
+              <div class="packagesubheading">Tailored to your business</div>
+            </div>
+            <div>
+              <div class="packageprice">Custom</div>
+              <div class="startingat">Starting at</div>
+            </div>
+            <div>
+              <ul class="packagelist">
+                <li><span class="tick">✓</span> Custom cleaning schedule</li>
+                <li><span class="tick">✓</span> Floor care & polishing</li>
+                <li><span class="tick">✓</span> Restroom sanitization</li>
+                <li><span class="tick">✓</span> Break room deep clean</li>
+                <li><span class="tick">✓</span> Window washing</li>
+                <li><span class="tick">✓</span> Dedicated account manager</li>
+              </ul>
+            </div>
+            <div class="packagebooking">Get Quote</div>
+          </div>
+        </div>
+      </div>
+      <div class="resultsection">
+        <div class="sectionmain">
+          <div class="sectionname">Results</div>
+          <div class="sectionheading">See the Difference</div>
+          <div class="sectiontext">
+            Real results from our cleaning professionals that showcase the
+            quality of our work.
+          </div>
+        </div>
+        <div class="images">
+          <div class="kitchenimage">
+            <div class="imagesheading">Kitchen Deep Clean</div>
+            <div class="beforeafter">
+              <div class="beforeaftertext">Before</div><div class="beforeaftertext">After</div>
+            </div>
+            <div class="difference">
+              <img
+                class="photo1"
+                src="/images/kitchen-2.jpg"
+                alt=" kitchen before image"
+              />
+              
+              <div class="overlay">
+                <img
+                  class="photo2"
+                  src="/images/kitchen-1.jpg"
+                  alt="kitchen after image"
+                />
+                
+              </div>
+            </div>
+          </div>
+          <div class="bathroomimage">
+             <div class="imagesheading">Bathroom Restoration</div>
+            <div class="beforeafter">
+              <div class="beforeaftertext">Before</div><div class="beforeaftertext">After</div>
+            </div>
+             <div class="difference">
+              <img
+                class="photo1"
+                src="/images/bathroom-1.jpg"
+                alt="bathroom before image"
+                />
+                <div class="overlay">
+                  <img
+                  class="photo2"
+                  src="/images/bathroom-2.jpg"
+                  alt="bathroom after image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviewsection">
+        <div class="sectionmain">
+          <div class="sectionname">Reviews</div>
+          <div class="sectionheading">Whats Our Clients Say</div>
+          <div class="sectiontext">
+            Hear from real clients about their experience with SparkleClean.
+          </div>
+        </div>
+        <div class="carousels">
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "SparkleClean transformed our home. I came back from work to find
+              every surface gleaming. They even got behind the fridge, which I
+              never manage to do myself. Absolutely worth every penny."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">S</div>
+              <div>
+                <div class="reviewer-name">Sarah Mitchell
+                  <div class="reviewer-info">Homeowner, 2years</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "We switched to SparkleClean for our office and the difference is
+              night and day. The team is professional, punctual, and thorough.
+              Our employees have actually commented on how clean the office is
+              now."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">D</div>
+              <div>
+                <div class="reviewer-name">Daved Chen
+                  <div class="reviewer-info">Office Manager</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "I booked their move-out cleaning service and got my full security
+              deposit back. They cleaned things I did not even know were dirty.
+              Highly recommended for anyone moving out of a rental."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">J</div>
+              <div>
+                <div class="reviewer-name">Jessica Rodriguez
+                  <div class="reviewer-info">Apartment Renter</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "As a busy mom of three, having SparkleClean come every two weeks
+              is a lifesaver. I love that they use eco-friendly products so I do
+              not have to worry about chemicals around my kids."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">A</div>
+              <div>
+                <div class="reviewer-name">Amanda Foster
+                  <div class="reviewer-info">Busy Parent</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "Their post-construction cleaning was incredible. After our
+              kitchen renovation, there was dust everywhere. The SparkleClean
+              team had the whole house spotless in just one day."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">M</div>
+              <div>
+                <div class="reviewer-name">Michael Torres
+                  <div class="reviewer-info">Homeowner</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          <div class="carousel">
+            <div class="stars">★★★★★</div>
+            <div>
+              "We have been using SparkleClean for our restaurant for over a
+              year. They work around our schedule and the kitchen passes every
+              health inspection with flying colors."
+            </div>
+            <div class="reviewer">
+              <div class="alphabet">L</div>
+              <div>
+                <div class="reviewer-name">Linda Park
+                  <div class="reviewer-info">Restaurent Owner</div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="bookingsection">
+        <div class="bookingheading">Ready for a Spotless Space ?</div>
+        <div class="bookingtext">
+          Book your cleaning today and experience the SparkleClean <br />
+          difference. First-time customers get 20% off their initial cleaning.
+        </div>
+        <div class="bookingquotecall">
+          <div class="bookgetfreequote">
+            Get Free Quote <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="bookingcall">
+            <svg class="callicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>  Call Now
+          </div>
+        </div>
+      </div>
+      <div class="faqsection">
+        <div class="sectionmain">
+          <div class="sectionname">FAQ</div>
+          <div class="sectionheading">Frequently Asked Questions</div>
+          <div class="sectiontext">
+            Find answers to common questions about our cleaning services.
+          </div>
+        </div>
+        <div class="accordionsection">
+            <div class="faq-item">
+              <input type="radio" id="faq1" name="faq">
+              <label for="faq1" class="faq-question">
+                <span>How long does a typical cleaning take?</span>
+                <span>+</span>
+              </label>
+              <div class="faq-answer">
+                A standard cleaning for a 1,500 sq ft home typically takes 2-3 hours with a two-person team. Deep cleans may take 4-6 hours depending on the condition and size of the space. We always provide a time estimate before we begin.
+              </div>
+            </div>
+            
+            <div>
+              <input type="radio" id="faq2" name="faq">
+              <label for="faq2" class="faq-question">
+                    <span>What cleaning products do you use?</span>
+                    <span>+</span>
+              </label>
+              <div class="faq-answer">
+                We use EPA-certified, eco-friendly cleaning products that are safe for children, pets, and people with allergies. Our green cleaning line is free from harsh chemicals, ammonia, and bleach while still delivering professional-grade results.
+               </div>
+            </div>
+            <div>
+              <input type="radio" id="faq3" name="faq">
+              <label for="faq3" class="faq-question">
+                    <span>What is included in a standard cleaning?</span>
+                    <span>+</span>
+              </label>
+              <div class="faq-answer">
+                Our standard cleaning covers dusting all surfaces, vacuuming and mopping floors, kitchen cleaning (counters, sink, stovetop, exterior of appliances), bathroom sanitization (toilet, tub, shower, sink, mirrors), and trash removal from all rooms.
+                </div>
+            </div>
+            <div>
+              <input type="radio" id="faq4" name="faq">
+              <label for="faq4" class="faq-question">
+                    <span>Are your cleaners insured and bonded?</span>
+                    <span>+</span>
+              </label>
+              <div class="faq-answer">
+                Yes, SparkleClean carries up to $2 million in liability insurance and all our team members are fully bonded. Every cleaner passes a thorough background check before joining our team, so you can feel confident and secure.
+                </div>
+            </div>
+            <div>
+              <input type="radio" id="faq5" name="faq">
+              <label for="faq5" class="faq-question">
+                    <span>Can I reschedule or cancel a cleaning?</span>
+                    <span>+</span>
+              </label>
+              <div class="faq-answer">
+                Absolutely. We ask for at least 24 hours notice for rescheduling or cancellations at no charge. Changes made within 24 hours of the appointment may incur a small fee. You can reschedule through our website, app, or by calling our team.
+                </div>
+            </div>
+        </div>
+
+        <div class="advertising">
+          <img class="advertiselogo" src="/images/logo.svg" alt="logo">
+          <img  class="bike" src="/images/bike.webp" alt="bike">
+        </div>
+        </div>
+
+
+      <div class="contactsection">
+        <div class="sectionmain">
+          <div class="sectionname">Contact</div>
+          <div class="sectionheading white">Get in Touch</div>
+          <div class="sectiontext white">
+            Ready for a cleaner space? Book your cleaning or ask us a question.
+          </div>
+        </div>
+        <div class="contactboxes">
+          <div class="contactleftbox">
+            <form class="form">
+              <div class="field">
+                <label>Full Name</label>
+                <input type="text" placeholder="Jane Smith" required/>
+                <small class="error" id="correct">This field is required</small>
+              </div>
+
+              <div class="field">
+                <label>Email Address</label>
+                <input type="email" placeholder="jane@example.com" required/>
+                <small class="error" id="correct">This field is required</small>
+              </div>
+
+              <div class="field">
+                <label>Phone Number</label>
+                <input type="text" placeholder="(555) 000-0000"/>
+              </div>
+
+              <div class="field">
+                <label>Service Needed</label>
+                <select>
+                  <option>Select a service</option>
+                  <option>Regular cleaning</option>
+                  <option>Deep Cleaning</option>
+                  <option>Move-In/Out Cleaning</option>
+                  <option>Commercial cleaning</option>
+                  <option>Post Construction</option>
+                  <option>Green Cleaning</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="field full">
+                <label>Preferred Date</label>
+                <input type="date" />
+              </div>
+
+              <div class="field full">
+                <label>Message</label>
+                <textarea rows="4" placeholder="Tell us about your cleaning needs..."></textarea>
+              </div>
+
+              <button class="full" id="requestcleaning">Request Cleaning</button>
+            </form>
+          </div>
+          <div class="contactrightbox white">
+            <div class="contactright">
+                <div class="contacticons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div class="contacttext">
+                <div class="contactheading">Visit Us
+                  <div class="contactinfo">456 Clean Street <br>PortLand,OR 97201</div>
+                </div>
+                </div>
+            </div>
+            
+            <div class="contactright">
+                <div class="contacticons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></div>
+                <div class="contacttext">
+                <div class="contactheading">Call Us
+                  <div class="contactinfo contacthovertext">(555) 867-5309</div>
+                </div>
+                </div>
+            </div>
+            <div class="contactright">
+                <div class="contacticons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+                <div class="contacttext">
+                <div class="contactheading">Email Us
+                  <div class="contactinfo contacthovertext">hello@sparkleclean.com</div>
+                </div>
+                </div>
+            </div>
+            <div class="contactright">
+                <div class="contacticons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-icon lucide-clock"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+                <div class="contacttext">
+                <div class="contactheading">Office Hours
+                  <div class="contactinfo">
+                  <div class="officehours">
+                    <div class="days">Monday-Friday</div>
+                    <div>7:00 AM - 7:00 PM</div>
+                  </div>
+                  <div class="officehours">
+                    <div>Saturday</div>
+                    <div>8:00 AM - 5:00 PM</div>
+                  </div>
+                  <div class="officehours">
+                    <div>sunday</div>
+                    <div>10:00 AM - 4:00 PM</div>
+                  </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="contactlocation">
+                  <div><svg  class="locationicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></div>
+                  <div>Interactive map coming soon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="footer">
+        <div class="footertop">
+          <div class="footerleft">
+            <div><img class="footerlogo" src="/images/logo.svg" alt=""></div>
+            <div class="footertext">Professional cleaning services for homes and offices. Insured, bonded, and eco-friendly.</div>
+            <div class="footerapps">
+              <div class="footapp"><i class="fa-brands fa-facebook"></i></div>
+              <div class="footapp"><i class="fa-brands fa-instagram"></i></div>
+              <div class="footapp"><i class="fa-brands fa-x-twitter"></i></div>
+            </div>
+          </div>
+          <div class="footermiddle">
+            <div class="footinfo">
+              <div class="footheading">SERVICES</div>
+              <div class="footertext hover">Regular Cleaning</div>
+              <div class="footertext hover">Deep Cleaning</div>
+              <div class="footertext hover">Move-In/Out</div>
+              <div class="footertext hover">Commercial</div>
+            </div>
+            <div class="footinfo">
+              <div class="footheading">RESOURCES</div>
+              <div class="footertext hover">Cleaning Checklist</div>
+              <div class="footertext hover">Service Areas</div>
+              <div class="footertext hover">Quote Calculator</div>
+              <div class="footertext hover">FAQ</div>
+            </div>
+            <div class="footinfo">
+              <div class="footheading">COMPANY</div>
+              <div class="footertext hover">About</div>
+              <div class="footertext hover">Blog</div>
+              <div class="footertext hover">Contact</div>
+              <div class="footertext hover">Careers</div>
+            </div>
+          </div>
+          <div class="footerright">
+               <div class="footheading">CONTACT US</div>
+               <div class="footercontacts">
+                <div class="footicons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div class="footertext ">456 Clean Street <br>PortLand,OR 97201</div>
+               </div>
+               <div class="footercontacts">
+                <div class="footicons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></div>
+                <div class="footertext hover">(555) 867-5309</div>
+               </div>
+               <div class="footercontacts">
+                <div class="footicons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+                <div class="footertext hover">hello@sparkleclean.com</div>
+               </div>
+          </div>
+        </div>
+        <div class="footerbottom">
+          <div class="footerbottomleft">© 2026 SparkleClean Pro. All rights reserved.</div>
+          <div class="footerbottomright">
+            <div class="hover">Privacy Policy</div>
+            <div class="hover">Terms of Service</div>
+            <div class="hover">Style</div>
+          </div>
+        </div>
+      </div>
+   
+
+      <div class="fixedbuttonbox">
+        <a href="#hero-section"><svg class="fixedbutton" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg></a>
+      </div>
+
+      <div class="bottom-buttons">
+      <div class="bottom-leftbutton">
+                  <svg class="callicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>  Call Now
+      </div>
+      <div class="bottom-rightbutton">Get Quote</div>
+      </div>
+
+
+    </div>
+
+
+  </body>
+</html>
