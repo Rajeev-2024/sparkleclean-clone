@@ -135,7 +135,7 @@ hr{
     justify-content: space-around;
     align-items: center;
     padding: 100px 0px;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/heroimage);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/heroimage);
     background-size: cover;
 }
 
@@ -586,7 +586,7 @@ input[type="range"]::-webkit-slider-thumb{
     align-content: center;
     background-color: #fbfbfb;
     padding: 120px 40px;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/service-hero-image.jpeg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/service-hero-image.jpeg) no-repeat;
     background-size: cover; 
 }
 .sectionmain{
@@ -938,7 +938,7 @@ input[type="range"]::-webkit-slider-thumb{
     background-color: white;
     padding: 50px 40px;
     padding-bottom: 120px;
-    background: url(/images/reviews-section-image.webp);
+    background: url(images/reviews-section-image.webp);
     background-size: cover;
 }
 .carousels{
@@ -1159,7 +1159,7 @@ input:checked + .faq-answer{
     text-align: center;
     align-content: center;
     padding: 120px 40px;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/contact-section-image.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/contact-section-image.jpg) no-repeat;
     background-size: cover ;
 }
 
@@ -1879,7 +1879,7 @@ select:focus:invalid{
     }
     .lefthero{
         width: 100%;
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/heroimage);
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/heroimage);
         background-size: cover;
         padding:0px 20px;
         padding-top:80px;
