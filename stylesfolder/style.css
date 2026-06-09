@@ -218,7 +218,9 @@ hr{
     animation-delay: 9s;
 }
 
-
+.bigname{
+    font-size: 30px;
+}
 
 @keyframes changeText {
     0%{
@@ -279,12 +281,11 @@ hr{
 }
 .call:hover{
     cursor: pointer;
-    background-color: #fbfbfb;
+    background-color: #84aaa7;
 }
 .herocallicon{
     margin-right: 10px;
     color: white;
-
 }
 .ratings{
     display: grid;
@@ -1310,8 +1311,10 @@ select:focus:invalid{
     width: 100%;
 }
 .footerlogo{
-    width: 250px;
+    width: 200px;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
 }
 .footertext{
     color: #9ca3af;
@@ -1898,22 +1901,27 @@ select:focus:invalid{
     .herotext{
         font-size: 15px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     .righthero{
         padding: 20px;
     }
-    .quotecall{
-        flex-direction: column;
-    }
-    .getfreequote2,.call{
-        font-size: 13px;
-        padding-right: 15px;
-        width: 200px;
+    .getfreequote2{
+        font-size: 8px;
+        width: 140px;
         margin: auto;
+        padding:3px 5px
+    }
+    .call{
+        font-size: 8px;
+        width: 120px;
+        margin: auto;
+        padding:3px 5px;
+        border: 2px solid #0d9488;
     }
     .herocallicon{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
     .packages{
         grid-template-columns: 1fr;
@@ -1922,6 +1930,9 @@ select:focus:invalid{
     width: 100px;
 }
     .review-no{
+        font-size: 15px;
+    }
+    .reviews{
         font-size: 15px;
     }
     .ratings{

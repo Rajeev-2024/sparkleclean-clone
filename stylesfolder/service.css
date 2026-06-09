@@ -377,8 +377,10 @@ hr{
     width: 100%;
 }
 .footerlogo{
-    width: 250px;
+    width: 200px;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
 }
 .footertext{
     color: #9ca3af;
