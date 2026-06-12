@@ -217,9 +217,8 @@ hr{
 .changing-text span:nth-child(4) {
     animation-delay: 9s;
 }
-
-.bigname{
-    font-size: 30px;
+#bigname{
+    font-size: 60px;
 }
 
 @keyframes changeText {
@@ -623,6 +622,16 @@ input[type="range"]::-webkit-slider-thumb{
     grid-gap: 30px;
     padding-top: 70px;
 }
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
 .service{
     background-color: white;
     border-radius: 20px;
@@ -630,9 +639,11 @@ input[type="range"]::-webkit-slider-thumb{
     text-align: start;
     padding: 30px;
     height: auto;
-    opacity: 0;
-    animation: slideup 8s linear infinite;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
+
 
 .white{
     color: white;
@@ -688,7 +699,7 @@ input[type="range"]::-webkit-slider-thumb{
     grid-template-columns: repeat(4,300px);
     justify-content: center;
     grid-gap: 40px;
-    margin-top: 100px;
+    margin: 100px  50px;
     background-color: white;
 }
 .package{
@@ -1834,7 +1845,9 @@ select:focus:invalid{
     .packages{
         grid-template-columns: 1fr;
     }
-
+    #bigname{
+        font-size: 50px;
+    }
 }
 
 
@@ -1895,22 +1908,66 @@ select:focus:invalid{
     .heromaintext{
         font-size: 20px;
     }
-    .changing-text span{
-        font: 21px;
-    }
+    
     .herotext{
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .righthero{
         padding: 20px;
+        margin: 20px 0px;
     }
     .getfreequote2{
         font-size: 8px;
         width: 140px;
         margin: auto;
         padding:3px 5px
+    }
+    .instant{
+        font-size: 18px;
+    }
+    .getyourestim{
+        font-size: 12px;
+    }
+    .write{
+        font-size: 12px;
+    }
+    .propertytype{
+        font-size: 12px;
+    }
+    .sqft{
+        font-size: 15px;
+    }
+    .range{
+        width: 320px;
+    }
+    .rangevalues{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .noofbr{
+        margin-bottom: 2px;
+    }
+    .times{
+        gap: 5px;
+    }
+    .bedrooms{
+        font-size: 12px;
+    }
+    .count{
+        font-size: 14px;
+        align-items: center;
+    }
+    .signs{
+        font-size: 5px;
+    }
+    .one-time{
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .estprice{
+        font-size: 15px;
     }
     .call{
         font-size: 8px;
@@ -1925,6 +1982,7 @@ select:focus:invalid{
     }
     .packages{
         grid-template-columns: 1fr;
+        margin: 10px;
     }
     .truck{
     width: 100px;
@@ -1938,13 +1996,19 @@ select:focus:invalid{
     .ratings{
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
+        gap: 10px;
+        margin: 30px;
     }
     
     .estprice{
         font-size: 15px;
     }
     .money{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .booknow{
+        font-size: 15px;
+        padding: 5px 20px;
     }
     .circleicons{
         width: 40px;
@@ -1952,19 +2016,31 @@ select:focus:invalid{
         padding: 10px;
     }
     .featurenames{
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .featuredetails{
+        font-size: 12px;
     }
     .features,.numbers{
         padding: 20px;
+    }
+    .numbers{
+        gap: 10px;
+        overflow: hidden;
+    }
+    .sectionname{
+        font-size: 13px;
     }
     .servicessection{
         padding: 30px 20px;
     }
     .sectionheading{
-        font-size: 20px;
+        font-size: 13px;
+        margin-top: 8px;
     }
     .sectiontext{
-        font-size: 15px;
+        font-size: 12px;
+        margin-top: 8px;
     }
     .servicesicons{
         width: 40px;
@@ -1973,16 +2049,47 @@ select:focus:invalid{
         margin-bottom: 5px;
     }
     .servicenames{
-        font-size: 18px;
+        font-size: 15px;
+        margin-bottom: 8px;
     }
     .servicetext{
-        font-size: 15px;
+        font-size: 12px;
+        margin-bottom: 8px;
     }
     .service{
-        padding: 15px;
+        padding: 10px;
+    }
+    .packagesection{
+        padding: 20px 40px;
     }
     .images{
         flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .carousels{
+        margin-top: 0px;
+        gap: 10px;
+    }
+    .bookingsection{
+        padding: 40px;
+    }
+    
+    .carousel{
+        font-size: 10px;
+    }
+    .alphabet{
+        font-size: 13px;
+        width: 10px;
+        height: 20px;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    .reviewer-name{
+        font-size: 13px;
+    }
+    .reviewer-info{
+        font-size: 12px;
     }
     .kitchenimage,.bathroomimage{
         width: 300px;
@@ -1992,7 +2099,37 @@ select:focus:invalid{
         font-size: 10px;
         padding: 0px 10px;
     }
-    
+    .packageheading{
+        font-size: 13px;
+    }
+    .packagesubheading{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .packageprice{
+        font-size: 20px;
+    }
+    .startingat{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .packagelist{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .packagebooking{
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+    .package{
+        padding: 5px;
+    }
+    .mostpopular{
+        font-size: 10px;
+    }
+    #popularbooking{
+        font-size: 13px;
+    }
 .stars{
     margin-bottom: 5px;
 }
@@ -2000,23 +2137,27 @@ select:focus:invalid{
     margin-top: 5px;
 }
 .bookingheading{
-    font-size: 1.5rem;
-}
-.bookingtext{
     font-size: 18px;
 }
+.bookingtext{
+    font-size: 13px;
+    margin-top: 15px;
+}
 .bookgetfreequote,.bookingcall{
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px;
-    padding-top: 10px;
+    padding-top: 8px;
+}
+.bookingquotecall{
+    margin-top: 10px;
 }
 .bookingcall{
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px;
 }
 .callicon{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 }
 .faq-question,.faq-answer{
     font-size: 15px;
@@ -2029,29 +2170,48 @@ select:focus:invalid{
     width: 300px;
 }
 .instantquote-button{
-    width: 160px;
-    font-size: 15px;
+    width: 130px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
 .dot{
     width: 6px;
     height: 6px;
-    top: 7px;
+    top: 5px;
 }
-
+.changing-text span,#bigname{
+    font-size: 30px;
+}
+.changing-text{
+    min-height: 40px;
+}
 .form{
     grid-template-columns: 1fr;
 }
 .contacticons{
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
 }
 .contactheading{
-    font-size: 18px;
+    font-size: 12px;
+}
+.contactinfo{
+    font-size: 10px;
+}
+.contactsection{
+    padding: 20px;
 }
 .contactleftbox{
-    padding: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.contactlocation{
+    font-size: 12px;
+    padding: 10px;
+}
+.locationicon{
+    width: 20px;
 }
 .form{
     gap:10px 20px;
@@ -2062,10 +2222,52 @@ select:focus:invalid{
 }
 .footertext{
     width: 300px;
+    font-size: 10px;
+}
+.footerapps{
+    margin-top: 5px;
+}
+.footapp{
+    font-size: 12px;
+}
+.footheading{
+    font-size: 12px;
+}
+.footermiddle{
+    margin: 5px 0px;
+}
+.footerbottom{
+    font-size: 10px;
 }
 .accordionsection{
     width: 300px;
+    margin-top: 10px;
 }
+.faq-question{
+    font-size: 10px;
+}
+.faq-question span:nth-child(2){
+font-size: 10px;
+width: 10px;
+height: 10px;
+}
+.formlabel{
+    font-size: 10px;
+}
+.form input{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form select,textarea{
+    font-size: 10px;
+    padding: 5px;
+}
+#requestcleaning{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
 .footerleft,.footermiddle,.footerright{
     width: 350px;
 }
@@ -2073,5 +2275,10 @@ select:focus:invalid{
     margin: 5px;
     right: 0px;
 }
-
+.footertop{
+    padding: 20px;
+}
+.footerlogo{
+    width: 100px;
+}
 }
