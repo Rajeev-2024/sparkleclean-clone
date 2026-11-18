@@ -2,6 +2,15 @@
 
 A responsive, multi-page frontend for a professional cleaning service. The site presents cleaning services, pricing, company information, articles, and contact options.
 
+## Live Demo
+
+[View the live site](https://rajeev-2024.github.io/sparkleclean-clone/)
+
+## Connect
+
+- LinkedIn: [a-rajeev](https://www.linkedin.com/in/a-rajeev-72a9023ba)
+- GitHub: [Rajeev-2024](https://github.com/Rajeev-2024)
+
 ## Pages
 
 - `index.html` — Home page with service highlights, testimonials, and a cleaning request form
@@ -48,3 +57,6 @@ Keep the `images/` and `stylesfolder/` directories alongside the HTML files so t
 ## Notes
 
 The contact and cleaning request forms are frontend elements. Connect them to a form service or backend before using them to collect or send submissions.
+
+
+
